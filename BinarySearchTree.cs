@@ -87,5 +87,35 @@ namespace BST_DS
                 this.right.InOrderTraversal();
             }
         }
+
+        /// <summary>
+        /// Searches the specified data.
+        /// </summary>
+        /// <param name="data">The data.</param>
+        /// <returns></returns>
+        public bool Search(T data)
+        {
+            int res = this.rootData.CompareTo(data);
+            if (res == 0)
+            {
+                return true;
+            }
+            else if (res > 0)
+            {
+                if (this.left == null)
+                {
+                    return false;
+                }
+                return this.left.Search(data);
+            }
+            else
+            {
+                if (this.right == null)
+                {
+                    return false;
+                }
+                return this.right.Search(data);
+            }
+        }
     }
 }

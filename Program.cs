@@ -33,6 +33,8 @@ namespace BST_DS
             bst.Insert(63);
             bst.Insert(67);
             bst.InOrderTraversal();
+            Console.WriteLine("\ncheck if 63 exist in bst: " + bst.Search(63));
+            Console.WriteLine("check if 72 exist in bst: " + bst.Search(72));
         }
     }
 }
