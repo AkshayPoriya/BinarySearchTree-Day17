@@ -2,7 +2,7 @@
 // <copyright file="BinarySearchTree.cs" company="Bridgelabz">
 //   Copyright © 2018 Company
 // </copyright>
-// <creator Name="Akshay Poriya"/>
+// <creator Name="Akshay Poriya "/>
 // --------------------------------------------------------------------------------------------------------------------
 namespace BST_DS
 {
